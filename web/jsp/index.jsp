@@ -57,11 +57,12 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. </p>
                                 <a class="btn btn-default get"
-                                        href='<%= session.getAttribute("sld1") %>'>Get it now
+                                   href='<%= session.getAttribute("sld1") %>'>Get it now
                                 </a>
                             </div>
                             <div class="col-sm-6">
-                                <img src="../resources/images/home/<%=session.getAttribute("sldPhoto1")%>" class="girl img-responsive" alt=""/>
+                                <img src="../resources/images/home/<%=session.getAttribute("sldPhoto1")%>"
+                                     class="girl img-responsive" alt=""/>
                                 <img src="../resources/images/home/pricing.png" class="pricing" alt=""/>
                             </div>
                         </div>
@@ -72,11 +73,12 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. </p>
                                 <a class="btn btn-default get"
-                                        href='<%= session.getAttribute("sld2") %>'>Get it now
+                                   href='<%= session.getAttribute("sld2") %>'>Get it now
                                 </a>
                             </div>
                             <div class="col-sm-6">
-                                <img src="../resources/images/home/<%=session.getAttribute("sldPhoto2")%>" class="girl img-responsive" alt=""/>
+                                <img src="../resources/images/home/<%=session.getAttribute("sldPhoto2")%>"
+                                     class="girl img-responsive" alt=""/>
                                 <img src="../resources/images/home/pricing.png" class="pricing" alt=""/>
                             </div>
                         </div>
@@ -92,7 +94,8 @@
                                 </button>
                             </div>
                             <div class="col-sm-6">
-                                <img src="../resources/images/home/<%=session.getAttribute("sldPhoto3")%>" class="girl img-responsive" alt=""/>
+                                <img src="../resources/images/home/<%=session.getAttribute("sldPhoto3")%>"
+                                     class="girl img-responsive" alt=""/>
                                 <img src="../resources/images/home/pricing.png" class="pricing" alt=""/>
                             </div>
                         </div>
@@ -120,7 +123,8 @@
                     <div class="panel-group category-products" id="accordian"><!--category-products-->
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title"><a href="<%= session.getAttribute("catDir1") %>">Sportswear</a></h4>
+                                <h4 class="panel-title"><a href="<%= session.getAttribute("catDir1") %>">Sportswear</a>
+                                </h4>
                             </div>
                         </div>
                         <div class="panel panel-default">
@@ -140,22 +144,26 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title"><a href="<%= session.getAttribute("catDir5") %>">Fashion</a></h4>
+                                <h4 class="panel-title"><a href="<%= session.getAttribute("catDir5") %>">Fashion</a>
+                                </h4>
                             </div>
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title"><a href="<%= session.getAttribute("catDir6") %>">Households</a></h4>
+                                <h4 class="panel-title"><a href="<%= session.getAttribute("catDir6") %>">Households</a>
+                                </h4>
                             </div>
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title"><a href="<%= session.getAttribute("catDir7") %>">Interiors</a></h4>
+                                <h4 class="panel-title"><a href="<%= session.getAttribute("catDir7") %>">Interiors</a>
+                                </h4>
                             </div>
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title"><a href="<%= session.getAttribute("catDir8") %>">Clothing</a></h4>
+                                <h4 class="panel-title"><a href="<%= session.getAttribute("catDir8") %>">Clothing</a>
+                                </h4>
                             </div>
                         </div>
                         <div class="panel panel-default">
@@ -174,13 +182,20 @@
                         <h2>Brands</h2>
                         <div class="brands-name">
                             <ul class="nav nav-pills nav-stacked">
-                                <li><a href="<%= session.getAttribute("brand1") %>"> <span class="pull-right">(50)</span>Acne</a></li>
-                                <li><a href="<%= session.getAttribute("brand2") %>"> <span class="pull-right">(56)</span>Grüne Erde</a></li>
-                                <li><a href="<%= session.getAttribute("brand3") %>"> <span class="pull-right">(27)</span>Albiro</a></li>
-                                <li><a href="<%= session.getAttribute("brand4") %>"> <span class="pull-right">(32)</span>Ronhill</a></li>
-                                <li><a href="<%= session.getAttribute("brand5") %>"> <span class="pull-right">(5)</span>Oddmolly</a></li>
-                                <li><a href="<%= session.getAttribute("brand6") %>"> <span class="pull-right">(9)</span>Boudestijn</a></li>
-                                <li><a href="<%= session.getAttribute("brand7") %>"> <span class="pull-right">(4)</span>Rösch creative culture</a></li>
+                                <li><a href="<%= session.getAttribute("brand1") %>"> <span
+                                        class="pull-right">(50)</span>Acne</a></li>
+                                <li><a href="<%= session.getAttribute("brand2") %>"> <span
+                                        class="pull-right">(56)</span>Grüne Erde</a></li>
+                                <li><a href="<%= session.getAttribute("brand3") %>"> <span
+                                        class="pull-right">(27)</span>Albiro</a></li>
+                                <li><a href="<%= session.getAttribute("brand4") %>"> <span
+                                        class="pull-right">(32)</span>Ronhill</a></li>
+                                <li><a href="<%= session.getAttribute("brand5") %>"> <span class="pull-right">(5)</span>Oddmolly</a>
+                                </li>
+                                <li><a href="<%= session.getAttribute("brand6") %>"> <span class="pull-right">(9)</span>Boudestijn</a>
+                                </li>
+                                <li><a href="<%= session.getAttribute("brand7") %>"> <span class="pull-right">(4)</span>Rösch
+                                    creative culture</a></li>
                             </ul>
                         </div>
                     </div><!--/brands_products-->
@@ -689,7 +704,8 @@
                                     <div class="product-image-wrapper">
                                         <div class="single-products">
                                             <div class="productinfo text-center">
-                                                <img src="../resources/images/home/<%=session.getAttribute("recImg1")%>" alt=""/>
+                                                <img src="../resources/images/home/<%=session.getAttribute("recImg1")%>"
+                                                     alt=""/>
                                                 <h2>$56</h2>
                                                 <p>Easy Polo Black Edition</p>
                                                 <a href="#" class="btn btn-default add-to-cart"><i
@@ -703,7 +719,8 @@
                                     <div class="product-image-wrapper">
                                         <div class="single-products">
                                             <div class="productinfo text-center">
-                                                <img src="../resources/images/home/<%=session.getAttribute("recImg2")%>" alt=""/>
+                                                <img src="../resources/images/home/<%=session.getAttribute("recImg2")%>"
+                                                     alt=""/>
                                                 <h2>$56</h2>
                                                 <p>Easy Polo Black Edition</p>
                                                 <a href="#" class="btn btn-default add-to-cart"><i
@@ -717,7 +734,8 @@
                                     <div class="product-image-wrapper">
                                         <div class="single-products">
                                             <div class="productinfo text-center">
-                                                <img src="../resources/images/home/<%=session.getAttribute("recImg3")%>" alt=""/>
+                                                <img src="../resources/images/home/<%=session.getAttribute("recImg3")%>"
+                                                     alt=""/>
                                                 <h2>$56</h2>
                                                 <p>Easy Polo Black Edition</p>
                                                 <a href="#" class="btn btn-default add-to-cart"><i
@@ -733,7 +751,8 @@
                                     <div class="product-image-wrapper">
                                         <div class="single-products">
                                             <div class="productinfo text-center">
-                                                <img src="../resources/images/home/<%=session.getAttribute("recImg4")%>" alt=""/>
+                                                <img src="../resources/images/home/<%=session.getAttribute("recImg4")%>"
+                                                     alt=""/>
                                                 <h2>$56</h2>
                                                 <p>Easy Polo Black Edition</p>
                                                 <a href="#" class="btn btn-default add-to-cart"><i
@@ -747,7 +766,8 @@
                                     <div class="product-image-wrapper">
                                         <div class="single-products">
                                             <div class="productinfo text-center">
-                                                <img src="../resources/images/home/<%=session.getAttribute("recImg5")%>" alt=""/>
+                                                <img src="../resources/images/home/<%=session.getAttribute("recImg5")%>"
+                                                     alt=""/>
                                                 <h2>$56</h2>
                                                 <p>Easy Polo Black Edition</p>
                                                 <a href="#" class="btn btn-default add-to-cart"><i
@@ -761,7 +781,8 @@
                                     <div class="product-image-wrapper">
                                         <div class="single-products">
                                             <div class="productinfo text-center">
-                                                <img src="../resources/images/home/<%=session.getAttribute("recImg6")%>" alt=""/>
+                                                <img src="../resources/images/home/<%=session.getAttribute("recImg6")%>"
+                                                     alt=""/>
                                                 <h2>$56</h2>
                                                 <p>Easy Polo Black Edition</p>
                                                 <a href="#" class="btn btn-default add-to-cart"><i
@@ -785,10 +806,164 @@
         </div>
     </div>
 </section>
+<footer id="footer"><!--Footer-->
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="companyinfo">
+                        <h2><span>e</span>-shopper</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor</p>
+                    </div>
+                </div>
+                <div class="col-sm-7">
+                    <div class="col-sm-3">
+                        <div class="video-gallery text-center">
+                            <a href="#">
+                                <div class="iframe-img">
+                                    <img src="../resources/images/home/iframe1.png" alt=""/>
+                                </div>
+                                <div class="overlay-icon">
+                                    <i class="fa fa-play-circle-o"></i>
+                                </div>
+                            </a>
+                            <p>Circle of Hands</p>
+                            <h2>24 DEC 2014</h2>
+                        </div>
+                    </div>
 
-<%--
-<jsp:include page="../resources/html/footer.html" flush="true"/>
---%>
+                    <div class="col-sm-3">
+                        <div class="video-gallery text-center">
+                            <a href="#">
+                                <div class="iframe-img">
+                                    <img src="../resources/images/home/iframe2.png" alt=""/>
+                                </div>
+                                <div class="overlay-icon">
+                                    <i class="fa fa-play-circle-o"></i>
+                                </div>
+                            </a>
+                            <p>Circle of Hands</p>
+                            <h2>24 DEC 2014</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="video-gallery text-center">
+                            <a href="#">
+                                <div class="iframe-img">
+                                    <img src="../resources/images/home/iframe3.png" alt=""/>
+                                </div>
+                                <div class="overlay-icon">
+                                    <i class="fa fa-play-circle-o"></i>
+                                </div>
+                            </a>
+                            <p>Circle of Hands</p>
+                            <h2>24 DEC 2014</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="video-gallery text-center">
+                            <a href="#">
+                                <div class="iframe-img">
+                                    <img src="../resources/images/home/iframe4.png" alt=""/>
+                                </div>
+                                <div class="overlay-icon">
+                                    <i class="fa fa-play-circle-o"></i>
+                                </div>
+                            </a>
+                            <p>Circle of Hands</p>
+                            <h2>24 DEC 2014</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="address">
+                        <img src="../resources/images/home/map.png" alt=""/>
+                        <p>505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-widget">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="single-widget">
+                        <h2>Service</h2>
+                        <ul class="nav nav-pills nav-stacked">
+                            <li><a href="<%=session.getAttribute("servfoot1")%>">Online Help</a></li>
+                            <li><a href="<%=session.getAttribute("servfoot2")%>">Contact Us</a></li>
+                            <li><a href="<%=session.getAttribute("servfoot3")%>">Order Status</a></li>
+                            <li><a href="<%=session.getAttribute("servfoot4")%>">Change Location</a></li>
+                            <li><a href="<%=session.getAttribute("servfoot5")%>">FAQ’s</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="single-widget">
+                        <h2>Quock Shop</h2>
+                        <ul class="nav nav-pills nav-stacked">
+                            <li><a href="<%=session.getAttribute("qushop1")%>">T-Shirt</a></li>
+                            <li><a href="<%=session.getAttribute("qushop2")%>">Mens</a></li>
+                            <li><a href="<%=session.getAttribute("qushop3")%>">Womens</a></li>
+                            <li><a href="<%=session.getAttribute("qushop4")%>">Gift Cards</a></li>
+                            <li><a href="<%=session.getAttribute("qushop5")%>">Shoes</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="single-widget">
+                        <h2>Policies</h2>
+                        <ul class="nav nav-pills nav-stacked">
+                            <li><a href="<%=session.getAttribute("poli1")%>">Terms of Use</a></li>
+                            <li><a href="<%=session.getAttribute("poli2")%>">Privacy Policy</a></li>
+                            <li><a href="<%=session.getAttribute("poli3")%>">Refund Policy</a></li>
+                            <li><a href="<%=session.getAttribute("poli4")%>">Billing System</a></li>
+                            <li><a href="<%=session.getAttribute("poli5")%>">Ticket System</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="single-widget">
+                        <h2>About Shopper</h2>
+                        <ul class="nav nav-pills nav-stacked">
+                            <li><a href="<%=session.getAttribute("about1")%>">Company Information</a></li>
+                            <li><a href="<%=session.getAttribute("about2")%>">Careers</a></li>
+                            <li><a href="<%=session.getAttribute("about3")%>">Store Location</a></li>
+                            <li><a href="<%=session.getAttribute("about4")%>">Affillate Program</a></li>
+                            <li><a href="<%=session.getAttribute("about5")%>">Copyright</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-sm-offset-1">
+                    <div class="single-widget">
+                        <h2>About Shopper</h2>
+                        <form action="#" class="searchform">
+                            <input type="text" placeholder="Your email address"/>
+                            <button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i>
+                            </button>
+                            <p>Get the most recent updates from <br/>our site and be updated your self...</p>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <p class="pull-left">Copyright © 2013 E-SHOPPER Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+</footer><!--/Footer-->
+
 
 <script src="../resources/js/jquery.js"></script>
 <script src="../resources/js/bootstrap.min.js"></script>

@@ -84,6 +84,50 @@
     String recPhoto6 = request.getParameter( "rec6" );
     if (recPhoto6 != "") session.setAttribute("recImg6", recPhoto6);
 
+    String servLink1 = request.getParameter( "serv1" );
+    if (servLink1 != "") session.setAttribute("servfoot1", servLink1);
+    String servLink2 = request.getParameter( "serv2" );
+    if (servLink2 != "") session.setAttribute("servfoot2", servLink2);
+    String servLink3 = request.getParameter( "serv3" );
+    if (servLink3 != "") session.setAttribute("servfoot3", servLink3);
+    String servLink4 = request.getParameter( "serv4" );
+    if (servLink4 != "") session.setAttribute("servfoot4", servLink4);
+    String servLink5 = request.getParameter( "serv5" );
+    if (servLink5 != "") session.setAttribute("servfoot5", servLink5);
+
+    String qShop1 = request.getParameter( "qshop1" );
+    if (qShop1 != "") session.setAttribute("qushop1", qShop1);
+    String qShop2 = request.getParameter( "qshop2" );
+    if (qShop2 != "") session.setAttribute("qushop2", qShop2);
+    String qShop3 = request.getParameter( "qshop3" );
+    if (qShop3 != "") session.setAttribute("qushop3", qShop3);
+    String qShop4 = request.getParameter( "qshop4" );
+    if (qShop4 != "") session.setAttribute("qushop4", qShop4);
+    String qShop5 = request.getParameter( "qshop5" );
+    if (qShop5 != "") session.setAttribute("qushop5", qShop5);
+
+    String pol1 = request.getParameter( "pol1" );
+    if (pol1 != "") session.setAttribute("poli1", pol1);
+    String pol2 = request.getParameter( "pol2" );
+    if (pol2 != "") session.setAttribute("poli2", pol2);
+    String pol3 = request.getParameter( "pol3" );
+    if (pol3 != "") session.setAttribute("poli3", pol3);
+    String pol4 = request.getParameter( "pol4" );
+    if (pol4 != "") session.setAttribute("poli4", pol4);
+    String pol5 = request.getParameter( "pol5" );
+    if (pol5 != "") session.setAttribute("poli5", pol5);
+
+    String abt1 = request.getParameter( "abt1" );
+    if (abt1 != "") session.setAttribute("about1", qShop1);
+    String abt2 = request.getParameter( "abt2" );
+    if (abt2 != "") session.setAttribute("about2", qShop2);
+    String abt3 = request.getParameter( "abt3" );
+    if (abt3 != "") session.setAttribute("about3", qShop3);
+    String abt4 = request.getParameter( "abt4" );
+    if (abt4 != "") session.setAttribute("about4", qShop4);
+    String abt5 = request.getParameter( "abt5" );
+    if (abt5 != "") session.setAttribute("about5", qShop5);
+
 %>
 
 <html>
