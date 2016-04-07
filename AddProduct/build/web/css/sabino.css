@@ -1,0 +1,18 @@
+.body{
+    background-color:#F2EF94;
+}
+
+.marginInputs{
+    margin-top: .2cm;
+}
+
+.labelInputText{
+    margin-top:.3cm;
+    text-align: right;
+}
+
+.btnRight{
+    float:right;
+    margin-top:.3cm;
+    margin-right:.5cm;
+}
