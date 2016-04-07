@@ -115,6 +115,34 @@
                             Image 6:
                             <input type="file" name="rec6" placeholder="Upload Your Image" accept="image/gif, image/jpeg, image/png" />
 
+                            <p>Urls for Footer Service</p>
+                            <input type="text" name="serv1" placeholder="Online Help">
+                            <input type="text" name="serv2" placeholder="Contact Us">
+                            <input type="text" name="serv3" placeholder="Order Status">
+                            <input type="text" name="serv4" placeholder="Change Location">
+                            <input type="text" name="serv5" placeholder="FAQ's">
+
+                            <p>Urls for Footer Quock Shop</p>
+                            <input type="text" name="qshop1" placeholder="Online Help">
+                            <input type="text" name="qsho2" placeholder="Contact Us">
+                            <input type="text" name="qshop3" placeholder="Order Status">
+                            <input type="text" name="qshop4" placeholder="Change Location">
+                            <input type="text" name="qshop5" placeholder="FAQ's">
+
+                            <p>Urls for Footer Policies</p>
+                            <input type="text" name="pol1" placeholder="Terms of Use">
+                            <input type="text" name="pol2" placeholder="Privacy Policy">
+                            <input type="text" name="pol3" placeholder="Refund Policy">
+                            <input type="text" name="pol4" placeholder="Billing System">
+                            <input type="text" name="pol5" placeholder="Ticket System">
+
+                            <p>Urls for Footer About</p>
+                            <input type="text" name="abt1" placeholder="Company Information">
+                            <input type="text" name="abt2" placeholder="Careers">
+                            <input type="text" name="abt3" placeholder="Store Location">
+                            <input type="text" name="abt4" placeholder="Affillate Program">
+                            <input type="text" name="abt5" placeholder="Copyright">
+
                             <a class="btn btn-primary" href="../jsp/index.jsp">Cancel</a>
                             <input type="submit" class="btn btn-primary">
                         </form>
