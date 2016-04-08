@@ -1,3 +1,5 @@
 .idea/
 lib/
 .DS_Store
+/RegisterUser/build/
+/RegisterUser/nbproject/private/

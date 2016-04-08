@@ -19,8 +19,8 @@ import javax.swing.JOptionPane;
  
 public class MySQL {
  
-    Connection conexion = null;
-    Statement comando = null;
+    public Connection conexion = null;
+    public Statement comando = null;
     ResultSet registro;
  
     public Connection MySQLConnect() {
