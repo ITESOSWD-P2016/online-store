@@ -28,13 +28,6 @@
             
             <form name="formulary" action="validation.jsp" method="post">
                 <div class="form-group">
-                    <label class="col-sm-2 control-label labelInputText">ID</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control marginInputs" name="Idid" id="Idid" placeholder="Insert ID">
-                    </div>
-                </div>
-
-                <div class="form-group">
                     <label class="col-sm-2 control-label labelInputText">Name</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control marginInputs" name="Idname" id="Idname" placeholder="Insert Name">

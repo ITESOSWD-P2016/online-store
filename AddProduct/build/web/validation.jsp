@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="databasejava.Queries"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -28,12 +29,16 @@
             
             
             if(request.getParameter("AcceptBtn") !=null){
-                System.out.println("ID:         " + Idid);
                 System.out.println("Name:       " + Idname);
                 System.out.println("Price:      " + Idprice);
                 System.out.println("Type:       " + Idtipe);
                 System.out.println("Category:   " + Idcategory);
                 System.out.println("Description:" + Iddescription);
+                
+                    Queries q = new Queries();
+                    q.hola();
+                    q.selectFromDB("Registro",1,2);
+                
                 
             }if(request.getParameter("CancelBtn")!=null){
                 response.sendRedirect("index.jsp");
