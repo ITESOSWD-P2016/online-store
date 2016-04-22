@@ -47,7 +47,7 @@ public class MySQL {
             JOptionPane.showMessageDialog(null, ex, "Error en la conexión a la base de datos: " + ex.getMessage(), JOptionPane.ERROR_MESSAGE);
             conexion = null;
         } finally {
-            JOptionPane.showMessageDialog(null, "Conexión Exitosa");
+            //JOptionPane.showMessageDialog(null, "Conexión Exitosa");
             return conexion;
         }
     }

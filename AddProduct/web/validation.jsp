@@ -27,7 +27,6 @@
             Idcategory      = request.getParameter("Idcategory");
             Iddescription   = request.getParameter("Iddescription");
             
-            
             if(request.getParameter("AcceptBtn") !=null){
                 System.out.println("Name:       " + Idname);
                 System.out.println("Price:      " + Idprice);
@@ -36,15 +35,12 @@
                 System.out.println("Description:" + Iddescription);
                 
                     Queries q = new Queries();
-                    q.hola();
-                    q.selectFromDB("Registro",1,2);
-                
-                
+                    q.selectFromDB("Registro", 2, 1);
+                    q.InsertProductToDB(Iddescription, Idprice);
+                    
             }if(request.getParameter("CancelBtn")!=null){
                 response.sendRedirect("index.jsp");
             }
-        %>
-        
-        
+        %>        
     </body>
 </html>

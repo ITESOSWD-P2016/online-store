@@ -24,10 +24,6 @@ public class Queries {
         db.MySQLConnect();
     }
     
-    public void hola(){
-        System.out.println("Hola");
-    }
-    
     public void selectFromDB(String tabla,int registro,int showRow){
         int row=0;
         try {         
@@ -47,21 +43,15 @@ public class Queries {
         }
     }
     
-        public void InsertToDB(String table){
-            /*
-        try {                      
+        public void InsertProductToDB(String description,String Price){
+        try {         
             db.comando = db.conexion.createStatement();
-            db.registro = db.comando.executeQuery("INSERT INTO " + table +" (column1,column2,column3,...)\n" +
-                                                        "VALUES (value1,value2,value3,...)");
-
-            while (db.registro.next()) {
-                
-                System.out.println("La tabla: " + table + "contiene ");
-                System.out.println("------------------------------------------");
-            }
+            int rows = db.comando.executeUpdate(
+                    "INSERT INTO `Products` (`ID_Products`, `Description`, `Quantity`, `Price`, `IVA`, `Total`, `IdCategory`, `ID_ProductHistory`) VALUES (NULL, '"+description+"', '1', '"+Price+"', '1', '1', '1', '1')"
+            );
         } catch (SQLException ex) {
             Logger.getLogger(MySQL_Test.class.getName()).log(Level.SEVERE, null, ex);
-        }*/
+        }
     }
 
 public static void main(String[] args) {
