@@ -19,9 +19,9 @@ import javax.swing.JOptionPane;
  
 public class MySQL {
  
-    Connection conexion = null;
-    Statement comando = null;
-    ResultSet registro;
+    public Connection conexion = null;
+    public Statement comando = null;
+    public ResultSet registro;
  
     public Connection MySQLConnect() {
  
@@ -38,16 +38,16 @@ public class MySQL {
             conexion = DriverManager.getConnection(servidor, usuario, pass);
  
         } catch (ClassNotFoundException ex) {
-            JOptionPane.showMessageDialog(null, ex, "Error en la conexión a la base de datos: " + ex.getMessage(), JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, ex, "Error en la conexión a la base de datos: " + ex.getMessage(), JOptionPane.ERROR_MESSAGE);
             conexion = null;
         } catch (SQLException ex) {
-            JOptionPane.showMessageDialog(null, ex, "Error en la conexión a la base de datos: " + ex.getMessage(), JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, ex, "Error en la conexión a la base de datos: " + ex.getMessage(), JOptionPane.ERROR_MESSAGE);
             conexion = null;
         } catch (Exception ex) {
-            JOptionPane.showMessageDialog(null, ex, "Error en la conexión a la base de datos: " + ex.getMessage(), JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, ex, "Error en la conexión a la base de datos: " + ex.getMessage(), JOptionPane.ERROR_MESSAGE);
             conexion = null;
         } finally {
-            JOptionPane.showMessageDialog(null, "Conexión Exitosa");
+            //JOptionPane.showMessageDialog(null, "Conexión Exitosa");
             return conexion;
         }
     }
