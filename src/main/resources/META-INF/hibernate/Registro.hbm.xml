@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.iteso.onlinestore.service.pojos.Registro" table="Registro">
+        <meta attribute="class-description">
+           esta clase contiene los detalles de la tabla Registro
+        </meta>
+        <property name="nombre" column="Nombre" type="string"/>
+        <property name="apellido" column="Apellido" type="string"/>
+        <property name="email" column="Email" type="string"/>
+    </class>
+</hibernate-mapping>
